@@ -32,4 +32,10 @@ else if(age > 65)
     console.log(`Dato che il passeggero ha piu di 65 anni il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) +  `€`);
 }
 
+//tutto il resto dei casi
+else 
+{
+    console.log(`il prezzo del biglietto rimane invariato dato che l'eta non rientra in nessuna scontistica` + ` ` + finalRate.toFixed(2)  + `€`);
+}
+
 
