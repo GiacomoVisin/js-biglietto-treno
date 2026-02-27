@@ -19,3 +19,9 @@ console.log(`quanti anni ha il passeggero?`);
 let age = 26
 console.log(`il passeggero ha` + `: ` + age + ` ` + `anni`);
 
+//condizione SE il passeggero è maggiorenne
+if (age < 18) {
+    finalRate = (finalRate - (finalRate / 100) * 20)
+    console.log(`Dato che il passeggero è minorenne il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) + `€`);
+}
+
