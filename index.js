@@ -11,3 +11,11 @@ console.log(`il passeggero deve percorrere` + `: ` + kilometers + ` ` + `kilomet
 let finalRate
 finalRate = rate * kilometers
 console.log(`il prezzo del biglietto di base è di` + ` ` + finalRate.toFixed(2) +  `€`);
+
+// dichiarazione età del passeggero 
+console.log(`quanti anni ha il passeggero?`);
+
+//assegna un valore numerico all'eta del passeggero 
+let age = 26
+console.log(`il passeggero ha` + `: ` + age + ` ` + `anni`);
+
