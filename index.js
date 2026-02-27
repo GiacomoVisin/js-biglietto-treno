@@ -61,8 +61,6 @@ finalRate_2 = rate * kilometers_2
 console.log(`il prezzo del secondo biglietto di base è quindi` + ` ` + finalRate_2.toFixed(2) + `€`);
 
 // dichiarazione età del passeggero 
-console.log(`se il passeggero ha meno di 18 anni il biglietto viene scontato del 20%`);
-console.log(`se il passeggero ha più di 65 anni il biglietto viene scontato del 40%`);
 console.log(`quanti anni ha il passeggero?`);
 
 //assegna un valore numerico all'eta del passeggero 
