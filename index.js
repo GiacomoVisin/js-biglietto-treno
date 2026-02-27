@@ -1,8 +1,11 @@
-// messaggio iniziale
-console.log(`quanti kilometri deve percorrere il passeggero?`);
+//inizializazzione variabili
 
 // tariffa per kilometro
 const rate = 0.21
+
+
+// messaggio iniziale
+console.log(`quanti kilometri deve percorrere il passeggero?`);
 
 let kilometers = 100  //assegna un valore numerico ai kilometri
 console.log(`il passeggero deve percorrere` + `: ` + kilometers + ` ` + `kilometri`);
@@ -10,7 +13,7 @@ console.log(`il passeggero deve percorrere` + `: ` + kilometers + ` ` + `kilomet
 //calcolo della tariffa del biglietto
 let finalRate
 finalRate = rate * kilometers
-console.log(`il prezzo del biglietto di base è di` + ` ` + finalRate.toFixed(2) +  `€`);
+console.log(`il prezzo del biglietto di base è di` + ` ` + finalRate.toFixed(2) + `€`);
 
 // dichiarazione età del passeggero 
 console.log(`quanti anni ha il passeggero?`);
@@ -26,16 +29,14 @@ if (age < 18) {
 }
 
 //condizione SE il passeggero ha piu di 65 anni
-else if(age > 65)
-{
+else if (age > 65) {
     finalRate = (finalRate - (finalRate / 100) * 40)
-    console.log(`Dato che il passeggero ha piu di 65 anni il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) +  `€`);
+    console.log(`Dato che il passeggero ha piu di 65 anni il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) + `€`);
 }
 
 //tutto il resto dei casi
-else 
-{
-    console.log(`il prezzo del biglietto rimane invariato dato che l'eta non rientra in nessuna scontistica` + ` ` + finalRate.toFixed(2)  + `€`);
+else {
+    console.log(`il prezzo del biglietto rimane invariato dato che l'eta non rientra in nessuna scontistica` + ` ` + finalRate.toFixed(2) + `€`);
 }
 
 
