@@ -25,3 +25,11 @@ if (age < 18) {
     console.log(`Dato che il passeggero è minorenne il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) + `€`);
 }
 
+//condizione SE il passeggero ha piu di 65 anni
+else if(age > 65)
+{
+    finalRate = (finalRate - (finalRate / 100) * 40)
+    console.log(`Dato che il passeggero ha piu di 65 anni il prezzo del biglietto scontato è di` + ` ` + finalRate.toFixed(2) +  `€`);
+}
+
+
