@@ -3,23 +3,28 @@
 // tariffa per kilometro
 const rate = 0.21
 
+// messaggii iniziale
+console.log(`la tariffa base del biglietto è di 0.21 euro al kilometro`);
 
-// messaggio iniziale
 console.log(`quanti kilometri deve percorrere il passeggero?`);
 
-let kilometers = 100  //assegna un valore numerico ai kilometri
+ //assegna un valore numerico ai kilometri
+let kilometers = 100 // <--- assegnare valore 
 console.log(`il passeggero deve percorrere` + `: ` + kilometers + ` ` + `kilometri`);
 
 //calcolo della tariffa del biglietto
 let finalRate
 finalRate = rate * kilometers
-console.log(`il prezzo del biglietto di base è di` + ` ` + finalRate.toFixed(2) + `€`);
+console.log(`il prezzo del biglietto di base è quindi` + ` ` + finalRate.toFixed(2) + `€`);
 
 // dichiarazione età del passeggero 
 console.log(`quanti anni ha il passeggero?`);
+console.log(`se il passeggero ha meno di 18 anni il biglietto viene scontato del 20%`);
+console.log(`se il passeggero ha più di 65 anni il biglietto viene scontato del 40%`);
+
 
 //assegna un valore numerico all'eta del passeggero 
-let age = 26
+let age = 26     // <--- assegnare valore 
 console.log(`il passeggero ha` + `: ` + age + ` ` + `anni`);
 
 //condizione SE il passeggero è maggiorenne
